@@ -1,70 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Parallax Template - Materialize</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a href="#!" class="brand-logo">
+        <img src="logo.png" style="height: 45px;">
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li>
+          <a href="#">Navbar Link</a>
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li>
+          <a href="#">Navbar Link</a>
+        </li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
   </nav>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Jacob Ragland</h1>
+        <br>
+        <br>
+        <h1 class="header center">Jacob Ragland</h1>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">My Resume</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large blue lighten-2">My Resume</a>
         </div>
-        <br><br>
+        <h1 class="header center">About Me</h1>
+        <br>
+        <br>
 
       </div>
     </div>
-    <div class="parallax"><img src="topp.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax">
+      <img src="midp.jpeg" alt="Unsplashed background img 1">
+    </div>
   </div>
 
 
-  <div class="container">
+  <div class="container z-depth-3">
     <div class="section">
 
       <!--   Icon Section   -->
+     
       <div class="row">
-        <div class="col s12 m4">
+        <div class="center-align">
           <div class="icon-block"></div>
-            <img src="jake.jpg" id="profilePic"> 
-          </div>
-       
-
-        <div class="col s12 m4">
-          
-            <h5 class="center">About Me</h5>
-
-            <p class="light">I'm currently a student at Unversity of Kansas coding Boot Camp Full Stack Developer program. I'm interested
-              in artificial intelligence, deep learning, robotics and website development. I'm looking for an internship in technology while I'm attending the Full Stack Developer Boot Camp at the Unversity
-              of Kansas.</p>
-              <p class="light"> I spend most of my free time with freinds going out to eat and drink. Being social is my favorite thing in the
-                world to do. I'm also a connoisseur of good scotch and tequila. My ideal weekend is getting togather with all
-                old and new friends. Going out to try new places and meet new poeple. You can never have to many friends. </p>   
+          <img src="jake.jpg" id="profilePic">
         </div>
-
       </div>
+
+      <div class="row">
+        <div class="center-align">
+
+
+
+          <p class="light">I'm currently a student at Unversity of Kansas coding Boot Camp Full Stack Developer program. I'm interested in
+            artificial intelligence, deep learning, robotics and website development. I'm looking for an internship in technology
+            while I'm attending the Full Stack Developer Boot Camp at the Unversity of Kansas.</p>
+          <p class="light"> I spend most of my free time with freinds going out to eat and drink. Being social is my favorite thing in the
+            world to do. I'm also a connoisseur of good scotch and tequila. My ideal weekend is getting togather with all
+            old and new friends. Going out to try new places and meet new poeple. You can never have to many friends. </p>
+        </div>
+      </div>
+
+
     </div>
   </div>
 
@@ -73,37 +91,177 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">""</h5>
+            <h1 class="center-align">Contact Me</h1>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="midp.jpeg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img src="topp.jpg" alt="Unsplashed background img 2">
+    </div>
   </div>
 
   <div class="container">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Me</h4>
+        <div class="col s12 center z-depth-3">
+          <h3>
+            <i class="mdi-content-send brown-text"></i>
+          </h3>
           <p class="left-align light"></p>
+          <div class="container">
+            <div class="row">
+              <div class="col m10 offset-m1 s12">
+           
+                <div class="alert">Your message has been sent</div>
+                <div class="row">
+                  <form id="contactForm">
+                    <div class="row">
+                      <div class="input-field col m6 s12">
+                        <input id="first" type="text" required>
+                        <label for="first_name">First Name</label>
+                      </div>
+                      <div class="input-field col m6 s12">
+                        <input id="last" type="text" required>
+                        <label for="last_name">Last Name</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col m6 s12">
+                        <i class="mdi-content-mail prefix"></i>
+                        <input id="email" type="email" required>
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="input-field col m6 s12">
+
+                        <input id="company" type="text" required>
+                        <label for="company">Company</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col m12">
+                        <p class="right-align">
+                          <button class="btn btn-large blue lighten-2" type="submit" name="action">Send Message</button>
+                        </p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">""</h5>
+          <h1 class="header">Portfolio</h1>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="botp.jpeg" alt="Unsplashed background img 3"></div>
+    <div class="parallax">
+      <img src="botp.jpeg" alt="Unsplashed background img 3">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 z-depth-3">
+        <div class="col s12 m6 14">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="train.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Train Scheduler
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="https://raglandpc.github.io/Train-Scheduler/">This is a link</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 14">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="Tropicalpic.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Tropical Triva
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="https://raglandpc.github.io/TriviaGame/">This is a link</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 14">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="Where-the show.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Wheres the Show
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="https://raglandpc.github.io/Wheres-The-Show/">This is a link</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 14">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="Friend finder pic.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Friend Finder
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="https://murmuring-stream-70886.herokuapp.com/">This is a link</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="page-footer  blue lighten-2">
@@ -111,23 +269,31 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support
+            and continue development on this project and is greatly appreciated.</p>
 
 
         </div>
         <div class="col l3 s16" style="float: right;">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="fa fa-github" href="https://github.com/RaglandPC">Github</a></li>
-            <li><a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/9008688/jacob-ragland?tab=topactivity">Stackoverflow</a></li>
-            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/jake-ragland-a65086a9/">Linkedin</a></li>
+            <li>
+              <a class="fa fa-github" href="https://github.com/RaglandPC">Github</a>
+            </li>
+            <li>
+              <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/9008688/jacob-ragland?tab=topactivity">Stackoverflow</a>
+            </li>
+            <li>
+              <a class="fa fa-linkedin" href="https://www.linkedin.com/in/jake-ragland-a65086a9/">Linkedin</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize,</a> with custom modification from Jacob Ragland
+        Made by
+        <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize,</a> with custom modification from Jacob Ragland
       </div>
     </div>
   </footer>
@@ -137,6 +303,10 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script src="main.js"></script>
 
-  </body>
+
+</body>
+
 </html>
