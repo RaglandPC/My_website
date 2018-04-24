@@ -1,5 +1,12 @@
   // Initialize Firebase
-
+  var config = {
+    apiKey: "AIzaSyAw5uTmmmJQUvY8gm6ODfRgtlV8e5nMPjA",
+    authDomain: "mywebsite-94e2b.firebaseapp.com",
+    databaseURL: "https://mywebsite-94e2b.firebaseio.com",
+    projectId: "mywebsite-94e2b",
+    storageBucket: "mywebsite-94e2b.appspot.com",
+    messagingSenderId: "813927513528"
+  };
   firebase.initializeApp(config);
   // Reference message collection
 
