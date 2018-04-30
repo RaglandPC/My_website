@@ -63,5 +63,5 @@ function saveMessage(first, last, email, company, message) {
 // Resume link
 
 function relocate_home() {
-    location.href = "KU coding Resume.docx";
+    location.href = "KU coding Resume.pdf";
   }
