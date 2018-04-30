@@ -59,3 +59,9 @@ function saveMessage(first, last, email, company, message) {
         message: message
     })
 }
+
+// Resume link
+
+function relocate_home() {
+    location.href = "KU coding Resume.docx";
+  }

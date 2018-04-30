@@ -108,7 +108,7 @@ h2 {
       }
   
       }
-      @media only screen and (max-width : 1165px) {
+      @media only screen and (max-width : 1145px) {
         #portlay{
           margin: 0 auto;
           max-width: 1280px;
