@@ -5,6 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
+ body ::after {
+   background: blue lighten-2;
+ }
+ .z-depth-3{
+   background: white;
+ }
 
 nav ul a,
 nav .brand-logo {
