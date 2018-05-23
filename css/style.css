@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
  body ::after {
-   background: blue lighten-2;
+   background: blue;
  }
  .z-depth-3{
    background: white;

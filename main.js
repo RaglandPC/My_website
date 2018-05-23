@@ -74,6 +74,15 @@ function relocate_home() {
 
 
 
+// scroll To
+$(".port").on("click", function () {
+  document.querySelector("#port").scrollIntoView({
+      behavior: "smooth"
+  });
+});
 
-
-  
+$(".contact").on("click", function () {
+  document.querySelector("#contact").scrollIntoView({
+      behavior: "smooth"
+  });
+});
