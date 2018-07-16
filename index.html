@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jacob Ragland</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body class="blue">
+<body class="white">
   <nav role="navigation" class="white">
     <div class="nav-wrapper container">
       <a href="#!" class="brand-logo">
@@ -25,18 +26,18 @@
         <li>
           <a class="contact">Contact ME</a>
         </li>
-          <li>
-              <a class="port">Portfolio</a>
-          </li>
-        </ul>
+        <li>
+          <a class="port">Portfolio</a>
+        </li>
+      </ul>
 
       <ul id="nav-mobile" class="sidenav">
-          <li>
-              <a class="port">Portfolio</a>
-          </li>
-          <li>
-              <a class ="contact">Contact ME</a>
-          </li>
+        <li>
+          <a class="port">Portfolio</a>
+        </li>
+        <li>
+          <a class="contact">Contact ME</a>
+        </li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger">
         <i class="material-icons">menu</i>
@@ -48,7 +49,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-            <h1 class="center-align">About Me</h1>
+
         </div>
       </div>
     </div>
@@ -58,14 +59,14 @@
   </div>
 
 
-  <div class="container z-depth-3">
+  <div class="container">
     <div class="section">
 
       <!--   Icon Section   -->
-     
+
       <div class="row">
         <div class="center-align">
-            <h2>Jacob Ragland</h2>
+          <h2>Jacob Ragland</h2>
           <div class="icon-block"></div>
           <img src="img/jake.jpg" id="profilePic" class="responsive-img">
         </div>
@@ -73,187 +74,128 @@
 
       <div class="row">
         <div class="center-align">
-          <p class="light"> Skills: HTML5, CSS3, JavaScript, React, Redux, Webpack, Npm/Yarn, jQuery, Node, MySQL, MongoDB, JSON, Exspress.js, AJAX, UI/UX, Materialize, Firebase, MongoDB, Git, Chrome DEV tools, Visual Studio, SEO, Public Speaking, Networking, Project Management, Customer Service, Sales and Marketing.</p>
-          <p class="light">I'm currently a student at University of Kansas coding Boot Camp Full Stack Developer program. I'm interested in User Experience Design, User Interface Design, Front End Development, Deep Learning, Real-Time Databases and Website Development. I'm looking for web developer position this spring.
-            </p>
-          <p class="light"> Being social is my favorite thing to do. My ideal weekend is getting together with all old friends and networking with new people, I like to attend meetups regularly to increase my network. I am also into fitness, having a good workout schedule is good for the body and mind. It’s a good way to destress after a long day’s work.  </p>
+          <p class="light"> Skills: HTML5, CSS3, JavaScript, React, Redux, Webpack, Npm/Yarn, jQuery, Node, MySQL, MongoDB, JSON, Exspress.js,
+            AJAX, UI/UX, Materialize, Firebase, MongoDB, Git, Chrome DEV tools, Visual Studio, SEO, Public Speaking, Networking,
+            Project Management, Customer Service, Sales and Marketing.</p>
+          <p class="light">I'm currently a student at University of Kansas coding Boot Camp Full Stack Developer program. I'm interested in
+            User Experience Design, User Interface Design, Front End Development, Deep Learning, Real-Time Databases and
+            Website Development. I'm looking for web developer position this spring.
+          </p>
+          <p class="light"> Being social is my favorite thing to do. My ideal weekend is getting together with all old friends and networking
+            with new people, I like to attend meetups regularly to increase my network. I am also into fitness, having a
+            good workout schedule is good for the body and mind. It’s a good way to destress after a long day’s work. </p>
           <p class="light">Programming isn’t about what you know; it’s about what you can figure out. — Chris Pine</p>
         </div>
         <div class="row center">
-            <button type="button" class="btn-large blue lighten-2" onclick=" relocate_home()">My Resume</button>
-          </div>
-      </div>
-
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center"  id="contact">
-            <h1 class="center-align">Contact Me</h1>
+          <button type="button" class="btn-large blue lighten-2" onclick=" relocate_home()">My Resume</button>
         </div>
       </div>
-    </div>
-    <div class="parallax">
-      <img src="img/topp.jpg" alt="Unsplashed background img 2">
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="section">
       <div class="row">
-          <div class="col s12 center z-depth-3">
-            <p>My email: jakearagland@gmail.com</p>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col s12 center z-depth-3">
-          <h3>
-            <i class="mdi-content-send brown-text"></i>
-          </h3>
-          <p class="left-align light"></p>
-          <div class="container">
-            <div class="row">
-              <div class="col m10 offset-m1 s12">
-           
-                <div class="alert">Your message has been sent</div>
-                <div class="row">
-                  <form id="contactForm">
-                    <div class="row">
-                      <div class="input-field col m6 s12">
-                        <input id="first" type="text" required>
-                        <label for="first_name">First Name</label>
-                      </div>
-                      <div class="input-field col m6 s12">
-                        <input id="last" type="text" required>
-                        <label for="last_name">Last Name</label>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="input-field col m6 s12">
-                        <i class="mdi-content-mail prefix"></i>
-                        <input id="email" type="email" required>
-                        <label for="email" style="float: left; margin: -1px;">Email</label>
-                      </div>
-                      <div class="input-field col m6 s12">
-
-                        <input id="company" type="text" required>
-                        <label for="company">Company</label>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <textarea id="message" class="materialize-textarea" required></textarea>
-                        <label for="message">Message</label>
-                      </div>
-                    </div>
-                    <div class="row center">             
-                          <button class="btn btn-large blue lighten-2" type="submit" name="action">Send Message</button>                     
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="center-align">
+          <h4>Contact me</h4>
+          <p>
+            Email: jakearagland@gmail.com
+          </p>
         </div>
       </div>
 
+
     </div>
   </div>
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h1 class="header">Portfolio</h1>
-        </div>
-      </div>
-    </div>
-    <div class="parallax" id="port">
-      <img src="img/botp.jpeg" alt="Unsplashed background img 3">
-    </div>
-  </div>
+
   <div class="container" id="portlay">
+    <div class="center-align">
+      <h4>Portfolio</h4>
+    </div>
     <div class="row">
-      <div class="col s12 z-depth-3">
-          <div class="col m10 offset-m1 s12">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-               <!-- Added style for height for Tropical triva -->
-              <img class="activator" src="img/train.png"  class="responsive-img">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Train Scheduler
-                <i class="material-icons right">more_vert</i>
-              </span>
-              <p>
-                <a href="https://raglandpc.github.io/Train-Scheduler/">Link to page</a>
-                ||
-                <a href="https://github.com/RaglandPC/Train-Scheduler">Link to GitHub repo</a>
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title
-                <i class="material-icons right">close</i>
-              </span>
-              <p>A train schedule application that incorporates Firebase to host arrival and departure data. This app retrieves and manipulates this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
-            </div>
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <!-- Added style for height for Tropical triva -->
+            <img class="activator" src="img/train.png" class="responsive-img">
           </div>
-       
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Train Scheduler
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://raglandpc.github.io/Train-Scheduler/">Link to page</a>
+              ||
+              <a href="https://github.com/RaglandPC/Train-Scheduler">Link to GitHub repo</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title
+              <i class="material-icons right">close</i>
+            </span>
+            <p>A train schedule application that incorporates Firebase to host arrival and departure data. This app retrieves
+              and manipulates this information with Moment.js. This website will provide up-to-date information about various
+              trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
 
-              <img class="activator" src="img/tropical.png" class="responsive-img">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Tropical Triva
-                <i class="material-icons right">more_vert</i>
-              </span>
-              <p>
-                <a href="https://raglandpc.github.io/TriviaGame/">link to page</a>
-                ||
-                <a href="https://github.com/RaglandPC/TriviaGame">Link to GitHub repo</a>
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title
-                <i class="material-icons right">close</i>
-              </span>
-              <p>A triva game that foucus on topics in the caribbean. This is an webpage that I really tried to showcase my CSS skills. Other technologys use where Javascript and jquery.
-            </div>
+            <img class="activator" src="img/tropical.png" class="responsive-img">
           </div>
-    
-        
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/Where-the show.png" class="responsive-img">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Wheres the Show
-                <i class="material-icons right">more_vert</i>
-              </span>
-              <p>
-                <a href="https://raglandpc.github.io/Wheres-The-Show/">Link to page</a>
-                ||
-                <a href="https://github.com/RaglandPC/Wheres-The-Show">Link to GitHub repo</a>
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title
-                <i class="material-icons right">close</i>
-              </span>
-              <p>On this website, you can search upcoming shows by location and date. Your search will return results for the next 2 weeks from the date selected. Upon clicking an artist name, the html will show a link to buy tickets to the event, the date of the show, th venue, and a thumbnail that's linked to a YouTube video from each artist so you can get acquainted with that artist's music.
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tropical Triva
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://raglandpc.github.io/TriviaGame/">link to page</a>
+              ||
+              <a href="https://github.com/RaglandPC/TriviaGame">Link to GitHub repo</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title
+              <i class="material-icons right">close</i>
+            </span>
+            <p>A triva game that foucus on topics in the caribbean. This is an webpage that I really tried to showcase my CSS
+              skills. Other technologys use where Javascript and jquery.
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/Where-the show.png" class="responsive-img">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Wheres the Show
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://raglandpc.github.io/Wheres-The-Show/">Link to page</a>
+              ||
+              <a href="https://github.com/RaglandPC/Wheres-The-Show">Link to GitHub repo</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title
+              <i class="material-icons right">close</i>
+            </span>
+            <p>On this website, you can search upcoming shows by location and date. Your search will return results for the
+              next 2 weeks from the date selected. Upon clicking an artist name, the html will show a link to buy tickets
+              to the event, the date of the show, th venue, and a thumbnail that's linked to a YouTube video from each artist
+              so you can get acquainted with that artist's music. For this project, we used the TicketMaster API, Google
+              Maps API, and YouTube API. We also utilized Materialize for CSS and minor Javascript visuals.</p>
+          </div>
+        </div>
+      </div>
 
-                  For this project, we used the TicketMaster API, Google Maps API, and YouTube API. We also utilized Materialize for CSS and minor Javascript visuals.</p>
-            </div>
-          </div>
-      
-    
+    </div>
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card small">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/Friend finder pic.jpg" class="responsive-img">
+              <img style="height: 180px;" class="activator" src="img/Friend finder pic.jpg" class="responsive-img">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Friend Finder
@@ -269,50 +211,85 @@
               <span class="card-title grey-text text-darken-4">Card Title
                 <i class="material-icons right">close</i>
               </span>
-              <p>This FriendFinder app surveys the user for personality using 10 questions, then provides the user with a match with the closest answers to theirs from all the saved user inputs.
-                  Languages used: HTML, CSS, Javascript, Node.js, Express.js
+              <p>This FriendFinder app surveys the user for personality using 10 questions, then provides the user with a match
+                with the closest answers to theirs from all the saved user inputs. Languages used: HTML, CSS, Javascript,
+                Node.js, Express.js
 
-                </p>
+              </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/trainpic.png" class="responsive-img">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Train-your-brain
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://raglandpc.github.io/Train-your-brain/">Link to page</a>
+              ||
+              <a href="https://github.com/RaglandPC/Train-your-brain">Link to GitHub repo</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title
+              <i class="material-icons right">close</i>
+            </span>
+            <p>This app is a memory game build with React. This project was fun yet challenging, break up UI components, manage
+              component state, and respond to user events. The objective of the game is to click every picture at least once
+              to win but every time you click a picture it shuffles the picture array so you have to use some memory. If
+              you click every picture only once you win!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card small">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/trainpic.png" class="responsive-img">
+              <img style="height: 180px;" class="activator" src="img/EventRight.png" class="responsive-img">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Train-your-brain
+              <span class="card-title activator grey-text text-darken-4">EventWright coming Soon!!
                 <i class="material-icons right">more_vert</i>
               </span>
               <p>
-                <a href="https://raglandpc.github.io/Train-your-brain/">Link to page</a>
+                <a href="#">Link coming soon!</a>
                 ||
-                <a href="https://github.com/RaglandPC/Train-your-brain">Link to GitHub repo</a>
+                <a href="https://github.com/RaglandPC/EventWright">Link to GitHub repo</a>
               </p>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Card Title
                 <i class="material-icons right">close</i>
               </span>
-              <p>This app is a memory game build with React. This project was fun yet challenging, break up UI components, manage component state, and respond to user events.
+              <p>This FriendFinder app surveys the user for personality using 10 questions, then provides the user with a match
+                with the closest answers to theirs from all the saved user inputs. Languages used: HTML, CSS, Javascript,
+                Node.js, Express.js
 
-                
-              The objective of the game is to click every picture at least once to win but every time you click a picture it shuffles the picture array so you have to use some memory. If you click every picture only once you win!!
-
-
-                </p>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
+
+
+
 
   <footer class="page-footer  blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Important Quote</h5>
-          <p class="grey-text text-lighten-4">Every great developer you know got there by solving problems they were unqualified to solve until they actually did it. — Patrick McKenzie</p>
+          <p class="grey-text text-lighten-4">Every great developer you know got there by solving problems they were unqualified to solve until they actually
+            did it. — Patrick McKenzie</p>
         </div>
         <div class="col l3 s16" style="float: right;">
           <h5 class="white-text">Connect</h5>
@@ -341,12 +318,12 @@
 
   <!--  Scripts-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="main.js"></script>
-  
-  
+
+
 
 </body>
 

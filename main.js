@@ -68,7 +68,7 @@
 // Resume link
 
 function relocate_home() {
-    location.href = "Style ResumeFullStack.pdf";
+    location.href = "KU Resume.docx";
   }
 
 

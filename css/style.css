@@ -1,16 +1,9 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
- body ::after {
-   background: blue;
+
+
+ body {
+   background: bisque
  }
- .z-depth-3{
-   background: white;
- }
+
 
 nav ul a,
 nav .brand-logo {
@@ -41,6 +34,11 @@ h1 {
     letter-spacing: .05em;
 }
 
+h4 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: #2c2c2c;
+  letter-spacing: .05em;
+}
 h2 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   color: #2c2c2c;
