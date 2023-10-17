@@ -68,7 +68,7 @@
 // Resume link
 
 function relocate_home() {
-    location.href = "KUResume.pdf";
+    location.href = "Jacob Ragland.pdf";
   }
 
 
